@@ -6,6 +6,9 @@ It supports data structures such as strings, hashes, lists, sets, sorted sets, e
 
 For this example, we will create a simple spring boot project and add the spring boot starter data Redis and redis-client jedis dependencies
 
+# Prerequisites
+
+    Install Redis and Start Redis Server(https://redis.io/download)
 
 # POM.xml
     You need to add this Redis client Jedis dependency or else your app might result in an error and won’t start. 
